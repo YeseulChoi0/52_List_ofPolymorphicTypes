@@ -14,7 +14,7 @@ public class List_inArraySlots{
   public String toString(){
     String s = "[";
     for (int i = 0; i < filledElements; i++){
-      s += array[i];
+      s += array[i] + ", ";
     }
     return s + "]";
   }
@@ -35,14 +35,14 @@ public class List_inArraySlots{
   }
 
   public Object get(int index){
-
+    return 0;
   }
 
   public void set(int index, int value){
 
   }
 
-  public int remove(int index){
-
+  public Object remove(int index){
+    return 0;
   }
 }
